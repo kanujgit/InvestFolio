@@ -84,9 +84,4 @@ Include screenshots of the app to showcase its functionality and design.
 | Home Screen | <img src="https://github.com/user-attachments/assets/1f660765-7af1-4b26-aae2-75c30296aa30" width="200"> | 
 | Details Screen | <img src="https://github.com/user-attachments/assets/a1e81436-0cef-40a9-9cc0-8d8c912a4de9" width="200"> |
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
