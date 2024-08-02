@@ -63,6 +63,13 @@ v
 
 - **InvestmentViewModel**: Manages user interactions and updates the state.
 
+### Flow
+- **User Interaction**: The user interacts with the UI (View), triggering actions.
+- **Intent Handling**: These actions are processed by Intent, which updates the ViewModel.
+- **State Management**: The ViewModel processes the actions and retrieves or updates data from the Model.
+- **Model Updates**: The Model handles business logic and data operations.
+- **UI Update**: The ViewModel sends state updates back to the View, reflecting changes in the UI.
+
 ## JSON Files
 
 - **`investments.json`**: Contains a list of investments.
