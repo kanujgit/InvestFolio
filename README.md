@@ -78,6 +78,12 @@ MVI Architecture Diagram
 
 Include screenshots of the app to showcase its functionality and design.
 
+[investmentfolio.webm](https://github.com/user-attachments/assets/e6ccde1d-3625-4db1-a1a2-7704993a8625)
+![home](https://github.com/user-attachments/assets/1f660765-7af1-4b26-aae2-75c30296aa30)
+![details](https://github.com/user-attachments/assets/a1e81436-0cef-40a9-9cc0-8d8c912a4de9)
+
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
