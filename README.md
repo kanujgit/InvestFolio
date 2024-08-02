@@ -27,25 +27,8 @@ InvestFolio is a modern Android application designed to empower users in managin
 The app follows the MVI (Model-View-Intent) architecture to manage state and data flow effectively.
 MVI Architecture Diagram
 
-+-----------+       +-----------+       +-----------+
-|    UI     | <---- |  ViewModel | <---- |   Model   |
-+-----------+       +-----------+       +-----------+
-^                     |                     ^
-|                     |                     |
-|                     v                     |
-|            +-------------------+            |
-|            |     Intents      |            |
-|            +-------------------+            |
-|                     |                     |
-|                     v                     |
-|            +-------------------+            |
------------- |     States       | ------------
-+-------------------+            
-|
-v
-+-------------------+
-|      Events      |
-+-------------------+
+![image](https://github.com/user-attachments/assets/f3dd0e72-60f3-48ee-ad4e-814a80c6c8fe)
+
 
 ### Model
 
