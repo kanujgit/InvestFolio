@@ -125,15 +125,34 @@ fun LoadingScreen() {
 
 @Composable
 fun ErrorScreen(error: String) {
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text(text = "Error: $error", color = MaterialTheme.colorScheme.error)
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        Text(
+            text = "An unexpected error occurred.",
+            style = MaterialTheme.typography.titleLarge,
+            color = Color.Red
+        )
     }
 }
 
 @Composable
 fun EmptyScreen() {
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text(text = "No investments available")
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        Text(
+            text = "No investments available.",
+            style = MaterialTheme.typography.titleLarge
+        )
     }
 }
 
